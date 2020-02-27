@@ -19,10 +19,7 @@ Vagrant.configure('2') do |config|
             vb.cpus = 1
         end
 
-        # sync web01 to /home/vagrant/ansible
-        machine.vm.synced_folder "web01/", "/home/web01/"
-
-        # upload vagrant private key to ansible controller
+        machine.vm.synced_folder "web01/", "/home/vagrant/"
         machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
 end
