@@ -16,6 +16,19 @@ Software needed:
 - virtualbox 5.0 or higher
 - virtualbox extension pack
 
+__Windows users__
+For windows, `git` is needed on the commandline. You can use the Windows packet manager `Chocolatey` for Powershell to easily install `git`. 
+
+Chocolatey url
+```
+https://chocolatey.org/install
+```
+
+To install `git` with `Chocolatey` within `Powershell`:
+```powershell
+choco install git
+```
+
 ### MacOS Catalina
 
 ```bash
@@ -31,7 +44,6 @@ apt install -y vagrant
 ### Windows 
 
 Download url
-
 ```
 https://www.vagrantup.com/downloads.html
 ```
@@ -45,5 +57,5 @@ vagrant up
 ```
 
 ```
-$ vagrant ssh web01
+vagrant ssh web01
 ```
