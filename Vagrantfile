@@ -19,7 +19,7 @@ Vagrant.configure('2') do |config|
             vb.cpus = 1
         end
 
-        machine.vm.synced_folder "web01/", "/home/vagrant/"
+        machine.vm.synced_folder "web01/", "/home/vagrant/stuff"
         machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
 end
