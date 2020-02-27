@@ -17,6 +17,7 @@ Software needed:
 - virtualbox extension pack
 
 __Windows users__
+
 For windows, `git` is needed on the commandline. You can use the Windows packet manager `Chocolatey` for `Powershell` to easily install `git`. 
 
 Chocolatey url
