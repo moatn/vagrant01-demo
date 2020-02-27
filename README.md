@@ -36,7 +36,7 @@ Download url
 https://www.vagrantup.com/downloads.html
 ```
 
-## How start the Vagrant box
+## Howto start the Vagrant box
 
 ```
 git clone https://github.com/moatn/vagrant01-demo
